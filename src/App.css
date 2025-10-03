@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header,
+.app-footer {
+  background: #228b22;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.app-content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
